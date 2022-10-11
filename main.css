@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #262626;
+}
+
+hr{
+    width: 90%;
+    height: 3px;
+    color: black;
+    margin: auto;
+    color:#333;
+    background-color:#333;
+}
+
+.container{
+    width: 1153px;
+    height: 93px;
+    position: fixed;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wall-img{
+    width: 1152px;
+    height: 850px;
+    margin-top: 100px;
+}
+
+.hero-section{
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.image-gallery{
+    display: flex;
+    justify-content: center;
+}
+.image-gallery-1{
+    display: flex;
+    padding: 0px 50px;
+    margin-top: 20px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.image-g{
+    width: 214px;
+    height: 612px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.image-g-1{
+    width: 269px;
+    height: 608px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.box{
+    /* position: relative; */
+    width: 100%;
+    height: auto;
+    border: 2px solid darkgray;
+    border-right: none;
+    border-left: none;
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+
+.image-r-1st{
+    width: 253px;
+    height: 253px;
+    margin-left: 210px;
+}
+
+.image-r-1{
+    width: 253px;
+    height: 253px;
+}
+
+.footer-flex{
+    display: flex;
+    background-image: url("https://scontent-iad3-2.cdninstagram.com/v/t51.2885-15/310698887_1055687755118458_6432816164032681721_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=lMcBhfZ8sSgAX-7FsFl&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=AEQ6tj4EAAAA&oh=00_AT9SiEBt3OEfBBNToLRXzaFC8YD5zJsLZ8vhPZpNMk-HFw&oe=6348EF15");
+    width: 253px;
+    height: 253px;
+    background-size: cover;
+    transition: all .3s ease-out;
+    margin-right: 10px;
+}
+
+.footer-flex:hover .h1-lee-hide{
+    display: flex;
+    opacity: 100;
+}
+
+.footer-flex1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 253px;
+    height: 253px;
+    background-size: cover;
+    transition: all .3s ease-out;
+    margin-right: 10px;
+}
+
+.footer-flex1:hover .h1-lee-hide{
+    display: flex;
+    opacity: 100;
+    color: black;
+}
+
+.container-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-case{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
